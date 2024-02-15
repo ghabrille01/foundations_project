@@ -1,3 +1,2 @@
-# Ghabrille Ampo 
-# foundations_project
+# Ghabrille Ampo's foundations_project
 
