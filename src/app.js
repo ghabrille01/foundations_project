@@ -1,5 +1,12 @@
-const http = require("http");
+import { http } from "http";
 const PORT = 3000;
+
+import { logger } from "./util/logger";
+
+process.on("uncaughtException", (error) => {
+  logger.error(`Uncaught Exception: ${error}`);
+  process.exit(1);
+});
 
 const server = http.createServer((req, res) => {
   if (req.method === "GET" && req.url === "/api/data") {
