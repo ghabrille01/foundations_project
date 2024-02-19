@@ -49,3 +49,10 @@
 2024-02-19T21:15:33.798Z [error]: Uncaught Exception: ReferenceError: username is not defined
 2024-02-19T21:15:47.742Z [error]: Uncaught Exception: ReferenceError: username is not defined
 2024-02-19T21:16:36.895Z [error]: Uncaught Exception: ReferenceError: username is not defined
+2024-02-19T21:18:18.741Z [error]: Uncaught Exception: ReferenceError: username is not defined
+2024-02-19T21:19:29.235Z [error]: Uncaught Exception: ReferenceError: username is not defined
+2024-02-19T21:20:15.790Z [error]: postmanUser is not available.
+2024-02-19T21:23:21.272Z [error]: postmanUser is not available.
+2024-02-19T21:24:00.129Z [error]: authenticatedUser1 is not available.
+2024-02-19T21:25:16.035Z [error]: authenticatedUser5 Entered Invalid Credentials
+2024-02-19T21:25:22.406Z [error]: postmanUser is not available.

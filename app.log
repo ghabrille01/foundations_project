@@ -81,3 +81,15 @@
 2024-02-19T21:15:33.793Z [info]: User postmanUser has been created.
 2024-02-19T21:15:47.737Z [info]: User postmanUser has been created.
 2024-02-19T21:16:36.891Z [info]: User postmanUser has been created.
+2024-02-19T21:18:18.738Z [info]: User postmanUser has been created.
+2024-02-19T21:19:29.232Z [info]: User postmanUser has been created.
+2024-02-19T21:20:12.444Z [info]: User postmanUser has been created.
+2024-02-19T21:20:15.790Z [error]: postmanUser is not available.
+2024-02-19T21:23:19.559Z [info]: User postmanUser has been created.
+2024-02-19T21:23:21.272Z [error]: postmanUser is not available.
+2024-02-19T21:24:00.129Z [error]: authenticatedUser1 is not available.
+2024-02-19T21:25:03.875Z [info]: authenticatedUser1 has successfully logged in.
+2024-02-19T21:25:11.060Z [info]: authenticatedUser2 has successfully logged in.
+2024-02-19T21:25:16.035Z [error]: authenticatedUser5 Entered Invalid Credentials
+2024-02-19T21:25:20.776Z [info]: User postmanUser has been created.
+2024-02-19T21:25:22.406Z [error]: postmanUser is not available.

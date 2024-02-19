@@ -4,6 +4,7 @@ const PORT = 3000;
 const { logger } = require("./util/logger");
 
 const { register } = require("./userManagement/register");
+const { login } = require("./userManagement/login");
 
 process.on("uncaughtException", (error) => {
   logger.error(`Uncaught Exception: ${error}`);
@@ -25,7 +26,22 @@ const server = http.createServer((req, res) => {
 
           const result = register(data.username, data.password);
 
-          if (result === `User ${username} has been created.`) {
+          if (result === `User ${data.username} has been created.`) {
+            res.writeHead(201, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ message: result }));
+          } else {
+            res.writeHead(401, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ message: result }));
+          }
+        });
+        break;
+        case "/api/login":
+        req.on("end", () => {
+          const data = JSON.parse(body);
+
+          const result = login(data.username, data.password);
+
+          if (result === `${data.username} has successfully logged in.`) {
             res.writeHead(201, { "Content-Type": "application/json" });
             res.end(JSON.stringify({ message: result }));
           } else {
