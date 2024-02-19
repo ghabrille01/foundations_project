@@ -1,6 +1,6 @@
-import { createLogger, transports, format } from "winston";
+const { createLogger, transports, format } = require("winston");
 
-export const logger = createLogger({
+const logger = createLogger({
   level: "info", // log only messages with level 'info' and above
   format: format.combine(
     format.timestamp(),
@@ -14,3 +14,6 @@ export const logger = createLogger({
   ],
 });
 
+module.exports = {
+  logger,
+}

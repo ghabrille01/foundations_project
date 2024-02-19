@@ -1,7 +1,9 @@
-import { http } from "http";
+const http = require("http");
 const PORT = 3000;
 
-import { logger } from "./util/logger";
+const { logger } = require("./util/logger");
+
+const { register } = require("./userManagement/register");
 
 process.on("uncaughtException", (error) => {
   logger.error(`Uncaught Exception: ${error}`);
@@ -10,11 +12,32 @@ process.on("uncaughtException", (error) => {
 
 const server = http.createServer((req, res) => {
   if (req.method === "GET" && req.url === "/api/data") {
-    
-  } else if (req.method === "POST" && req.url === "/api/create") {
-    
+  } else if (req.method === "POST") {
+    let body = "";
+    req.on("data", (chunk) => {
+      body += chunk;
+    });
+
+    switch (req.url) {
+      case "/api/register":
+        req.on("end", () => {
+          const data = JSON.parse(body);
+
+          const result = register(data.username, data.password);
+
+          if (result === `User ${username} has been created.`) {
+            res.writeHead(201, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ message: result }));
+          } else {
+            res.writeHead(401, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ message: result }));
+          }
+        });
+        break;
+      default:
+        break;
+    }
   } else if (req.method === "PUT" && req.url === "/api/update") {
-    
   } else if (req.method === "DELETE" && req.url === "/api/delete") {
   } else {
     // Not matching any endpoints
