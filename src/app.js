@@ -12,7 +12,76 @@ process.on("uncaughtException", (error) => {
 });
 
 const server = http.createServer((req, res) => {
-  if (req.method === "GET" && req.url === "/api/data") {
+  let body = "";
+
+  req
+    .on("data", (chunk) => {
+      body += chunk;
+    })
+    .on("end", () => {
+      body = body.length > 0 ? JSON.parse(body) : {};
+
+      const contentType = { "Content-Type": "application/json" };
+
+      if (req.url.startsWith("/register")) {
+        switch (req.method) {
+          case "POST":
+            // console.log("POST REQUEST");
+            const { username, password } = body;
+
+            const result = register(username, password);
+
+            if (result === `${username} is not available.`) {
+              res.writeHead(400, contentType);
+              res.end(
+                JSON.stringify({
+                  message: result,
+                })
+              );
+            } else {
+              res.writeHead(201, contentType);
+              res.end(JSON.stringify(result));
+            }
+            break;
+          default:
+            res.writeHead(404, contentType);
+            res.end(JSON.stringify({ message: "Invalid Endpoint" }));
+            break;
+        }
+      } else if (req.url.startsWith("/login")) {
+        let username = req.url.split("/")[2];
+
+        switch (req.method) {
+          case "POST":
+            // console.log("POST REQUEST");
+            const { password } = body;
+
+            const result = login(username, password);
+
+            if (result === `Invalid Credentials`) {
+              res.writeHead(400, contentType);
+              res.end(
+                JSON.stringify({
+                  message: result,
+                })
+              );
+            } else {
+              res.writeHead(201, contentType);
+              res.end(JSON.stringify(result));
+            }
+            break;
+          default:
+            res.writeHead(404, contentType);
+            res.end(JSON.stringify({ message: "Invalid Endpoint" }));
+            break;
+        }
+      } else {
+        res.writeHead(404, contentType);
+        res.end(JSON.stringify({ message: "Invalid Endpoint" }));
+      }
+    });
+
+  /*if (req.method === "GET" && req.url === "/api/data") {
   } else if (req.method === "POST") {
     let body = "";
     req.on("data", (chunk) => {
@@ -60,7 +129,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(404, { "Content-Type": "application/json" });
     let data = { error: "Not Found" };
     res.end(JSON.stringify(data));
-  }
+  }*/
 });
 
 server.listen(PORT, () => {

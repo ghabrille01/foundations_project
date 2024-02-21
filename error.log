@@ -56,3 +56,35 @@
 2024-02-19T21:24:00.129Z [error]: authenticatedUser1 is not available.
 2024-02-19T21:25:16.035Z [error]: authenticatedUser5 Entered Invalid Credentials
 2024-02-19T21:25:22.406Z [error]: postmanUser is not available.
+2024-02-20T23:08:24.858Z [error]: Uncaught Exception: ReferenceError: users is not defined
+2024-02-20T23:10:33.208Z [error]: Uncaught Exception: ReferenceError: item is not defined
+2024-02-20T23:12:40.903Z [error]: Uncaught Exception: ReferenceError: item is not defined
+2024-02-20T23:22:17.539Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:24:40.740Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:26:19.656Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:26:53.589Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:27:24.452Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:29:17.173Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:33:33.993Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:34:04.794Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:34:39.396Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:35:13.883Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:43:07.046Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:45:59.744Z [error]: Uncaught Exception: TypeError: getEmployee is not a function
+2024-02-20T23:46:10.479Z [error]: Uncaught Exception: TypeError: getEmployee is not a function
+2024-02-20T23:46:29.754Z [error]: Uncaught Exception: TypeError: getEmployee is not a function
+2024-02-20T23:46:58.915Z [error]: Uncaught Exception: TypeError: getEmployee is not a function
+2024-02-20T23:47:27.516Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:48:44.814Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:49:13.087Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-20T23:49:26.889Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-21T01:03:58.237Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:06:50.027Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:08:33.717Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-21T01:10:12.086Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:10:41.107Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:13:37.219Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:15:20.210Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:16:07.771Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:17:00.606Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T01:17:44.611Z [error]: postmanUser Entered Invalid Credentials
