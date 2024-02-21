@@ -88,3 +88,8 @@
 2024-02-21T01:16:07.771Z [error]: postmanUser Entered Invalid Credentials
 2024-02-21T01:17:00.606Z [error]: postmanUser Entered Invalid Credentials
 2024-02-21T01:17:44.611Z [error]: postmanUser Entered Invalid Credentials
+2024-02-21T04:05:30.726Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-21T04:05:30.732Z [error]: (...args) => defaultLogger[method](...args)
+2024-02-21T20:50:58.290Z [error]: Unable to read item. Error: ValidationException: One or more parameter values were invalid: Missing the key employee_id in the item
+2024-02-21T21:05:58.961Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-21T21:06:34.161Z [error]: Cannot read properties of undefined (reading '0')
