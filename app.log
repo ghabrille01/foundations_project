@@ -168,3 +168,68 @@
 2024-02-22T01:32:02.594Z [info]: Created Ticket ID : 4019eb62-c871-4de5-9176-87c61c20e6ce
 2024-02-22T01:35:04.087Z [info]: Incoming POST : /ticket
 2024-02-22T01:35:04.318Z [info]: Created Ticket ID : ec20c58a-e898-4aaa-9c18-137aaa2def56
+2024-02-22T19:18:32.193Z [info]: Incoming POST : /register
+2024-02-22T19:19:07.958Z [info]: Incoming POST : /register
+2024-02-22T19:19:07.958Z [error]: User is already logged in.
+2024-02-22T19:29:07.273Z [info]: Incoming POST : /register
+2024-02-22T19:29:07.277Z [error]: User is already logged in.
+2024-02-22T19:29:41.659Z [info]: Incoming POST : /register
+2024-02-22T19:33:21.405Z [info]: Incoming POST : /register
+2024-02-22T19:33:42.453Z [info]: Incoming POST : /register
+2024-02-22T19:34:32.674Z [info]: Incoming POST : /register
+2024-02-22T19:34:48.650Z [info]: Incoming POST : /register
+2024-02-22T19:36:27.335Z [info]: Incoming POST : /register
+2024-02-22T19:36:27.629Z [info]: Created Employee: postmanUser 10
+2024-02-22T19:36:29.528Z [info]: Incoming POST : /register
+2024-02-22T19:36:31.386Z [info]: Incoming POST : /register
+2024-02-22T19:40:02.756Z [info]: Incoming POST : /ticket
+2024-02-22T19:45:47.508Z [info]: Incoming POST : /register
+2024-02-22T19:45:53.498Z [info]: Incoming POST : /login
+2024-02-22T19:47:30.065Z [info]: Incoming POST : /login
+2024-02-22T19:47:30.304Z [info]: undefined Login: undefined Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg2MzEyNTAsImV4cCI6MTcwODYzMjE1MH0.ClaFKTCx-wHt_YjF9W3b8Wq2Zgr4xUftKYV27fhCQag
+2024-02-22T19:48:43.659Z [info]: Incoming POST : /login
+2024-02-22T19:48:43.882Z [info]: undefined Login: undefined Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDg2MzEzMjMsImV4cCI6MTcwODYzMjIyM30.zsCQGPwYMuGcXuBtAV2R07Yihtpvmy7HLUvX6cF9hr0
+2024-02-22T19:50:19.697Z [info]: Incoming POST : /login
+2024-02-22T19:50:19.948Z [info]: employee Login: postmanUser 10 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk0MmNhNzdlLTUzNGItNDc4NS1hZTUyLTllMGI1YmJiNmU4YSIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzMTQxOSwiZXhwIjoxNzA4NjMyMzE5fQ.o086ETt6xiMu-YUAEvXXG5MRBByp-e5TpyhIVlIwYAI
+2024-02-22T19:51:32.329Z [info]: Incoming POST : /login
+2024-02-22T19:51:32.557Z [info]: employee Login: postmanUser 10 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk0MmNhNzdlLTUzNGItNDc4NS1hZTUyLTllMGI1YmJiNmU4YSIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzMTQ5MiwiZXhwIjoxNzA4NjMyMzkyfQ.SRGL5KVRc-tRVKUI7-VE89WLJr84MnErjhOlrOGfHsg
+2024-02-22T19:52:54.908Z [info]: Incoming POST : /login
+2024-02-22T19:52:55.144Z [info]: employee Login: postmanUser 10 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk0MmNhNzdlLTUzNGItNDc4NS1hZTUyLTllMGI1YmJiNmU4YSIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzMTU3NSwiZXhwIjoxNzA4NjMyNDc1fQ.LyvlXWGmBrJeHU5kt3vhhDRHqUaQJyuEeWnRfMyiKBo
+2024-02-22T19:53:36.324Z [info]: Incoming POST : /ticket
+2024-02-22T19:54:25.163Z [info]: Incoming POST : /ticket
+2024-02-22T19:55:56.089Z [info]: Incoming POST : /ticket
+2024-02-22T19:57:10.224Z [info]: Incoming POST : /ticket
+2024-02-22T19:59:18.883Z [info]: Incoming POST : /ticket
+2024-02-22T19:59:19.121Z [info]: Created Ticket ID : 2dcedf1b-96b4-4ed3-ad8c-bbba715b2970
+2024-02-22T19:59:42.680Z [info]: Incoming POST : /ticket
+2024-02-22T20:08:05.210Z [info]: Incoming POST : /register
+2024-02-22T20:08:05.567Z [info]: Created Employee: UserWithDigest
+2024-02-22T20:08:11.730Z [info]: Incoming POST : /login
+2024-02-22T20:09:20.893Z [info]: Incoming POST : /login
+2024-02-22T20:10:51.954Z [info]: Incoming POST : /login
+2024-02-22T20:10:52.235Z [info]: $2b$10$H0qZDxTVXWIQTFH6wlUpsOMubho3igThRt61DIytdsh1SSmqZx2Ay === $2b$10$oyw/1/6WV6g4Y578Bbkz.OF7FJuOL3uvV8z1JdbMIljEOiCAB/Qvy
+2024-02-22T20:13:10.447Z [info]: Incoming POST : /login
+2024-02-22T20:13:10.772Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzMjc5MCwiZXhwIjoxNzA4NjMzNjkwfQ.JbWsxIMEmj9iB7pm1cloEuHONTARmhNfCODaA8jBaL8
+2024-02-22T20:56:56.299Z [info]: Incoming GET : /login
+2024-02-22T20:57:01.983Z [info]: Incoming POST : /login
+2024-02-22T20:57:02.312Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzNTQyMiwiZXhwIjoxNzA4NjM2MzIyfQ.DLAripwt9AkrFJeg_m08-TnjlHlvsM8p5xoiWliwZJE
+2024-02-22T20:57:41.445Z [info]: Incoming POST : /ticket/pendingtickets
+2024-02-22T20:57:45.561Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-22T20:59:07.635Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-22T20:59:07.636Z [error]: jwt malformed
+2024-02-22T20:59:36.105Z [info]: Incoming GET : /login
+2024-02-22T20:59:39.443Z [info]: Incoming POST : /login
+2024-02-22T20:59:39.768Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzNTU3OSwiZXhwIjoxNzA4NjM2NDc5fQ.GMZ-6NkekvPa4JFrv9mCBzzlbPY-tpC3UNtd4aYVX_k
+2024-02-22T21:00:55.181Z [info]: Incoming POST : /login
+2024-02-22T21:00:55.471Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzNTY1NSwiZXhwIjoxNzA4NjM2NTU1fQ.lJcMYF3NddURusWs5WK69DoEx-mJ1KNXArPQbjM0Cbw
+2024-02-22T21:01:23.036Z [info]: Incoming POST : /login
+2024-02-22T21:01:23.167Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODYzNTY4MywiZXhwIjoxNzA4NjM2NTgzfQ.BcZMuENYN6FyN5vEsjCR5I3JHx7yppkuukHbK7Dhhdo
+2024-02-22T21:03:05.999Z [info]: Incoming POST : /login
+2024-02-22T21:03:06.283Z [info]: employee Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDg2MzU3ODYsImV4cCI6MTcwODYzNjY4Nn0.rnS3NSAJykWWL7xQTT6MLwkJt-11iFJdUnOv-rOf3UQ
+2024-02-22T21:03:36.864Z [info]: Incoming GET : /ticket/pendingticket
+2024-02-22T21:03:50.147Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-22T21:03:50.367Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-22T21:04:31.756Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-22T21:04:31.994Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-22T21:06:50.978Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-22T21:06:51.202Z [info]: UserWithDigest has accessed pending tickets.

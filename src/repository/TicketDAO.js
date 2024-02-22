@@ -25,7 +25,7 @@ async function postTicket(Item) {
 
   try {
     const data = await documentClient.send(command);
-    return Item.ticket_id;
+    return Item;
   } catch (err) {
     logger.error(`Unable to read item. Error: ${err}`);
   }
@@ -33,4 +33,23 @@ async function postTicket(Item) {
   return null;
 }
 
-module.exports = { postTicket}
+// READ
+async function getPendingTickets() {
+  const command = new ScanCommand({
+    TableName,
+    FilterExpression: "#s = :s",
+    ExpressionAttributeNames: { "#s": "status" },
+    ExpressionAttributeValues: { ":s": "pending" },
+  });
+
+  try {
+    const data = await documentClient.send(command);
+    return data.Items;
+  } catch (err) {
+    logger.error(err);
+  }
+
+  return null;
+}
+
+module.exports = { postTicket, getPendingTickets };

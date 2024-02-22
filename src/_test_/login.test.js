@@ -9,10 +9,10 @@ describe("Login Tests", () => {
     const expected = username;
 
     // ACT
-    const result = await login({ username: username, password: password });
+    const result = await login({ username, password });
 
     // Assert
-    expect(result).toBe(expected);
+    expect(result.username).toBe(expected);
   });
 
   // login fails for invalid credentials
@@ -23,7 +23,7 @@ describe("Login Tests", () => {
     const expected = null;
 
     // ACT
-    const result = await login({ username: username, password: password });
+    const result = await login({ username, password });
 
     // Assert
     expect(result).toBe(expected);
@@ -35,7 +35,7 @@ describe("Login Tests", () => {
     const expected = null;
 
     // ACT
-    const result = await login({username:"",password:""});
+    const result = await login({});
 
     // Assert
     expect(result).toBe(expected);

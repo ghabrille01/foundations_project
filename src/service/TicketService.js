@@ -16,11 +16,15 @@ async function postTicket(receivedData) {
   return null;
 }
 
+async function getPendingTickets() {
+  return await ticketDAO.getPendingTickets();
+}
+
 function validateTicket(data) {
-  if (!data.amount || !data.description || !data.employee_id) {
+  if (!data || !data.amount || !data.description || !data.employee_id) {
     return false;
   }
   return true;
 }
 
-module.exports = { postTicket };
+module.exports = { postTicket, getPendingTickets };

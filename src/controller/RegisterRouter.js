@@ -9,8 +9,8 @@ const registerService = require("../service/RegisterService");
 router.post("/", async (req, res) => {
   const data = await registerService.postEmployee(req.body);
   if (data) {
-    logger.info(`Created Employee: ${data}`);
-    res.status(201).json({ message: "Created Employee", data });
+    logger.info(`Created Employee: ${data.username}`);
+    res.status(201).json({ message: `Created Employee ${data.username}` });
   } else {
     res
       .status(400)

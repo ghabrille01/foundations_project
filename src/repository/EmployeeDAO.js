@@ -41,7 +41,7 @@ async function postEmployee(Item) {
 
   try {
     const data = await documentClient.send(command);
-    return Item.username;
+    return Item;
   } catch (err) {
     logger.error(`Unable to read item. Error: ${err}`);
   }

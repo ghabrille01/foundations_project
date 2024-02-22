@@ -1,14 +1,15 @@
 const employeeDao = require("../repository/EmployeeDAO");
+const bcrypt = require("bcrypt");
 
 async function login(recievedData) {
-  if (validateEmployee(recievedData)) {
+  if (recievedData && validateEmployee(recievedData)) {
     const data = await employeeDao.getEmployeeByUsername(recievedData.username);
     if (
       validateEmployee(data) &&
       recievedData.username === data.username &&
-      recievedData.password === data.password
+      (await bcrypt.compare(recievedData.password, data.password))
     ) {
-      return data.username;
+      return data;
     }
   }
 
@@ -16,7 +17,7 @@ async function login(recievedData) {
 }
 
 function validateEmployee(data) {
-  if (!data.username || !data.password) {
+  if (!data || !data.username || !data.password) {
     return false;
   }
   return true;
