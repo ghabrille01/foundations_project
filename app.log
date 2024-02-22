@@ -146,3 +146,25 @@
 2024-02-21T21:06:34.156Z [info]: Incoming POST : /login
 2024-02-21T21:07:53.560Z [info]: Incoming POST : /login
 2024-02-21T21:07:53.818Z [info]: Employee Login: postmanUser 2
+2024-02-21T21:59:51.963Z [info]: Incoming POST : /register
+2024-02-21T21:59:52.279Z [info]: Created Employee: postmanUser 4
+2024-02-21T22:00:16.603Z [info]: Incoming POST : /register
+2024-02-21T22:01:52.735Z [info]: Incoming POST : /register
+2024-02-21T22:01:52.999Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:02:00.064Z [info]: Incoming POST : /register
+2024-02-21T22:02:00.129Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:02:49.380Z [info]: Incoming POST : /register
+2024-02-21T22:02:49.627Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:03:50.409Z [info]: Incoming POST : /register
+2024-02-21T22:03:50.804Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:04:45.919Z [info]: Incoming POST : /register
+2024-02-21T22:04:46.289Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:05:26.562Z [info]: Incoming POST : /register
+2024-02-21T22:05:26.803Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:06:12.264Z [info]: Incoming POST : /register
+2024-02-21T22:06:12.560Z [info]: Created Employee: postmanUser 10
+2024-02-21T22:06:56.614Z [info]: Incoming POST : /register
+2024-02-22T01:32:02.356Z [info]: Incoming POST : /ticket
+2024-02-22T01:32:02.594Z [info]: Created Ticket ID : 4019eb62-c871-4de5-9176-87c61c20e6ce
+2024-02-22T01:35:04.087Z [info]: Incoming POST : /ticket
+2024-02-22T01:35:04.318Z [info]: Created Ticket ID : ec20c58a-e898-4aaa-9c18-137aaa2def56

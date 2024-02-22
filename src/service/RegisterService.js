@@ -1,19 +1,31 @@
-const { logger } = require("../util/logger");
-const employeeDAO = require("../repository/EmployeeDAO");
+const employeeDAO = require('../repository/EmployeeDAO');
 const uuid = require("uuid");
 
 async function postEmployee(receivedData) {
   if (validateEmployee(receivedData)) {
-    let data = await employeeDAO.postEmployee({
-      employee_id: uuid.v4(),
-      username: receivedData.username,
-      password: receivedData.password,
-      role: "employee",
-    });
-    return data;
+    if (await validateUsername(receivedData)){
+      let data = await employeeDAO.postEmployee({
+        employee_id: uuid.v4(),
+        username: receivedData.username,
+        password: receivedData.password,
+        role: "employee",
+      });
+      return data;
+    }
   }
 
   return null;
+}
+
+async function validateUsername(data) {
+  const isTaken = await employeeDAO.getEmployeeByUsername(data.username);
+  if(isTaken && validateEmployee(isTaken)){
+    if(data.username == isTaken.username) {
+      return false;
+    } else {
+      return true;
+    }
+  } 
 }
 
 function validateEmployee(data) {

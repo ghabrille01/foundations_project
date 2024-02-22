@@ -4,6 +4,7 @@ async function login(recievedData) {
   if (validateEmployee(recievedData)) {
     const data = await employeeDao.getEmployeeByUsername(recievedData.username);
     if (
+      validateEmployee(data) &&
       recievedData.username === data.username &&
       recievedData.password === data.password
     ) {

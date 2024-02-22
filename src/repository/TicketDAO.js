@@ -1,7 +1,10 @@
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
 const {
   DynamoDBDocumentClient,
+  GetCommand,
   PutCommand,
+  UpdateCommand,
+  DeleteCommand,
   ScanCommand,
 } = require("@aws-sdk/lib-dynamodb");
 
@@ -11,29 +14,10 @@ const documentClient = DynamoDBDocumentClient.from(client);
 
 const { logger } = require("../util/logger");
 
-const TableName = "Foundation_Employees";
-
-// READ
-async function getEmployeeByUsername(username) {
-  const command = new ScanCommand({
-    TableName,
-    FilterExpression: "#u = :u",
-    ExpressionAttributeNames: { "#u": "username" },
-    ExpressionAttributeValues: { ":u": username },
-  });
-
-  try {
-    const data = await documentClient.send(command);
-    return data.Items[0];
-  } catch (err) {
-    logger.error(err);
-  }
-
-  return null;
-}
+const TableName = "Foundation_Tickets";
 
 // CREATE
-async function postEmployee(Item) {
+async function postTicket(Item) {
   const command = new PutCommand({
     TableName,
     Item,
@@ -41,7 +25,7 @@ async function postEmployee(Item) {
 
   try {
     const data = await documentClient.send(command);
-    return Item.username;
+    return Item.ticket_id;
   } catch (err) {
     logger.error(`Unable to read item. Error: ${err}`);
   }
@@ -49,7 +33,4 @@ async function postEmployee(Item) {
   return null;
 }
 
-module.exports = {
-  postEmployee,
-  getEmployeeByUsername,
-};
+module.exports = { postTicket}

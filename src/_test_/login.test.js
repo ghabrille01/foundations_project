@@ -1,29 +1,41 @@
-const { login } = require("../userManagement/login");
+const { login } = require("../service/LoginService");
 
 describe("Login Tests", () => {
   // successful login of a user
-  test("Successfully register a user.", () => {
+  test("Successfully login a user.", async () => {
     // Arrange
-    const username = "authenticatedUser1";
+    const username = "testregistration";
     const password = "testpass";
-    const expected = `${username} has successfully logged in.`;
+    const expected = username;
 
     // ACT
-    const result = login(username, password);
+    const result = await login({ username: username, password: password });
 
     // Assert
     expect(result).toBe(expected);
   });
 
   // login fails for invalid credentials
-  test("Successfully register a user.", () => {
+  test("Fail with invalid credentials.", async () => {
     // Arrange
     const username = "unknownUser";
     const password = "testpass";
-    const expected = `Invalid Credentials`;
+    const expected = null;
 
     // ACT
-    const result = login(username, password);
+    const result = await login({ username: username, password: password });
+
+    // Assert
+    expect(result).toBe(expected);
+  });
+
+  // login fails for empty data
+  test("Fail with empty data.", async () => {
+    // Arrange
+    const expected = null;
+
+    // ACT
+    const result = await login({username:"",password:""});
 
     // Assert
     expect(result).toBe(expected);
