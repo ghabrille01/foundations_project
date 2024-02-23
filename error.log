@@ -96,3 +96,5 @@
 2024-02-22T19:19:07.958Z [error]: User is already logged in.
 2024-02-22T19:29:07.277Z [error]: User is already logged in.
 2024-02-22T20:59:07.636Z [error]: jwt malformed
+2024-02-23T21:40:26.963Z [error]: jwt malformed
+2024-02-23T21:41:22.637Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status

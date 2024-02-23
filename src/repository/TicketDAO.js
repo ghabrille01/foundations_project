@@ -38,7 +38,7 @@ async function getPendingTickets() {
   const command = new ScanCommand({
     TableName,
     FilterExpression: "#s = :s",
-    ExpressionAttributeNames: { "#s": "status" },
+    ExpressionAttributeNames: { "#s": "ticket_status" },
     ExpressionAttributeValues: { ":s": "pending" },
   });
 
@@ -52,12 +52,11 @@ async function getPendingTickets() {
   return null;
 }
 
-// READ
 async function getNonPendingTicketsById(employee_id) {
   const command = new ScanCommand({
     TableName,
     FilterExpression: "#s <> :s AND #e = :e",
-    ExpressionAttributeNames: { "#s": "status", "#e": "employee_id" },
+    ExpressionAttributeNames: { "#s": "ticket_status", "#e": "employee_id" },
     ExpressionAttributeValues: { ":s": "pending", ":e": employee_id },
   });
 
@@ -71,4 +70,50 @@ async function getNonPendingTicketsById(employee_id) {
   return null;
 }
 
-module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById };
+async function approveTicket(ticket_id) {
+  const command = new UpdateCommand({
+    TableName,
+    Key: {
+      ticket_id,
+    },
+    UpdateExpression: "set ticket_status = :ticket_status",
+    ExpressionAttributeValues: {
+      ":ticket_status": "approved",
+    },
+    ReturnValues: "ALL_NEW",
+  });
+
+  try {
+    const data = await documentClient.send(command);
+    return data.Attributes;
+  } catch (err) {
+    logger.error(err);
+  }
+
+  return null;
+}
+
+async function denyTicket(ticket_id) {
+  const command = new UpdateCommand({
+    TableName,
+    Key: {
+      ticket_id,
+    },
+    UpdateExpression: "set ticket_status = :ticket_status",
+    ExpressionAttributeValues: {
+      ":ticket_status": "denied",
+    },
+    ReturnValues: "ALL_NEW",
+  });
+
+  try {
+    const data = await documentClient.send(command);
+    return data.Attributes;
+  } catch (err) {
+    logger.error(err);
+  }
+
+  return null;
+}
+
+module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById, approveTicket, denyTicket };

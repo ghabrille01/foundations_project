@@ -233,3 +233,64 @@
 2024-02-22T21:04:31.994Z [info]: UserWithDigest has accessed pending tickets.
 2024-02-22T21:06:50.978Z [info]: Incoming GET : /ticket/pendingtickets
 2024-02-22T21:06:51.202Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-23T21:37:58.968Z [info]: Incoming POST : /login
+2024-02-23T21:37:59.292Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDI3OSwiZXhwIjoxNzA4NzI1MTc5fQ.ngaTCSD0jt4RtUdV-2wKolqLTBbKc3eLWP3fmtH-UCs
+2024-02-23T21:38:37.180Z [info]: Incoming PUT : /login/995c3875-e432-41a0-9937-5d6dc77c9e98
+2024-02-23T21:38:45.251Z [info]: Incoming PUT : /ticket/995c3875-e432-41a0-9937-5d6dc77c9e98
+2024-02-23T21:40:20.142Z [info]: Incoming PUT : /ticket/approve/995c3875-e432-41a0-9937-5d6dc77c9e98
+2024-02-23T21:40:26.961Z [info]: Incoming PUT : /ticket/approveticket/995c3875-e432-41a0-9937-5d6dc77c9e98
+2024-02-23T21:40:26.963Z [error]: jwt malformed
+2024-02-23T21:40:41.194Z [info]: Incoming POST : /login
+2024-02-23T21:40:41.503Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDQ0MSwiZXhwIjoxNzA4NzI1MzQxfQ.vEGFONiXDhCwzYzYygv8Tzy9JGz1Eh6HKraRZK2QwUI
+2024-02-23T21:41:18.267Z [info]: Incoming POST : /ticket/approveticket/3ab3d69e-ffd2-41c2-acda-5eb30957aff3
+2024-02-23T21:41:22.368Z [info]: Incoming PUT : /ticket/approveticket/3ab3d69e-ffd2-41c2-acda-5eb30957aff3
+2024-02-23T21:41:22.637Z [error]: Invalid UpdateExpression: Attribute name is a reserved keyword; reserved keyword: status
+2024-02-23T21:43:58.900Z [info]: Incoming POST : /login
+2024-02-23T21:43:59.204Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDYzOSwiZXhwIjoxNzA4NzI1NTM5fQ.Lt1inXex7KRAWz5aCNYYKphxoi_Ab237NLujUGNTHac
+2024-02-23T21:44:30.339Z [info]: Incoming POST : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:44:35.571Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:45:40.975Z [info]: Incoming POST : /login
+2024-02-23T21:45:41.282Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDc0MSwiZXhwIjoxNzA4NzI1NjQxfQ.djcaMA3ktEii4KK7vwWbuST9a_jER8-ce-cF6528NHE
+2024-02-23T21:46:31.803Z [info]: Incoming POST : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:46:36.460Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:47:19.226Z [info]: Incoming POST : /login
+2024-02-23T21:47:19.536Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDgzOSwiZXhwIjoxNzA4NzI1NzM5fQ.8ihNyGHNal4MJ_jERgSNmJqXN4lHtTn6yTgjwN0_0o8
+2024-02-23T21:47:57.489Z [info]: Incoming POST : /ticket/denyticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:48:01.071Z [info]: Incoming PUT : /ticket/denyticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:49:48.468Z [info]: Incoming PUT : /login
+2024-02-23T21:49:54.257Z [info]: Incoming POST : /login
+2024-02-23T21:49:54.582Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNDk5NCwiZXhwIjoxNzA4NzI1ODk0fQ.7gm_Ot6gOcdG6W4eLg88yOmsV99NlZyGPmWCusEB_i8
+2024-02-23T21:50:33.085Z [info]: Incoming PUT : /ticket/approveticket/97ccf40e-2e9f-4626-96a1-82b587c2a2b1
+2024-02-23T21:53:36.809Z [info]: Incoming POST : /login/
+2024-02-23T21:53:37.129Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNTIxNywiZXhwIjoxNzA4NzI2MTE3fQ.RxvGop-l06NNc_dlrXEAxf2EaVru-HmO3e35S8voW94
+2024-02-23T21:54:17.103Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:54:17.302Z [info]: undefined
+2024-02-23T21:55:56.562Z [info]: Incoming POST : /login/
+2024-02-23T21:55:56.859Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNTM1NiwiZXhwIjoxNzA4NzI2MjU2fQ.Zrwe6WubbdzdS-K2PIU1jUS5shnmLTValnkGKk2u7J0
+2024-02-23T21:56:24.564Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T21:56:24.758Z [info]: [object Object]
+2024-02-23T21:56:24.759Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-23T21:58:11.665Z [info]: Incoming POST : /login/
+2024-02-23T21:58:11.979Z [info]: employee Login: testregistration Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImEyMGJjZjk5LTlkNjEtNGYwNC04ZjRlLTdjNzMzN2UyNTQ3YSIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODcyNTQ5MSwiZXhwIjoxNzA4NzI2MzkxfQ.mddw3q-Fiu5r2b4dNiJIz40_azD_gIT3AZroZpNUftM
+2024-02-23T21:58:26.796Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:03:18.376Z [info]: Incoming POST : /login/
+2024-02-23T22:03:18.680Z [info]: employee Login: testregistration Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImEyMGJjZjk5LTlkNjEtNGYwNC04ZjRlLTdjNzMzN2UyNTQ3YSIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbiIsInJvbGUiOiJlbXBsb3llZSIsImlhdCI6MTcwODcyNTc5OCwiZXhwIjoxNzA4NzI2Njk4fQ.FhVXnnPmc-1_A2TB0GUY4H9z6dxEyRhKLpibKmC1VWY
+2024-02-23T22:03:30.789Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:03:30.954Z [info]: testregistration has accessed their previous tickets.
+2024-02-23T22:07:21.930Z [info]: Incoming POST : /login/
+2024-02-23T22:07:22.245Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODcyNjA0MiwiZXhwIjoxNzA4NzI2OTQyfQ.GPkE0No9jDTRoT1lt8dR6rfy3xqefg5oA2S3ItftGhk
+2024-02-23T22:07:34.957Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:08:08.758Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:08:08.996Z [info]: UserWithDigest approved ticket.
+2024-02-23T22:09:26.426Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:09:26.671Z [info]: UserWithDigest approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:09:37.099Z [info]: Incoming PUT : /ticket/denyticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:09:37.154Z [info]: UserWithDigest denied ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:09:55.234Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:09:55.286Z [info]: UserWithDigest approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-23T22:12:15.253Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-23T22:12:15.435Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-23T22:13:28.220Z [info]: Incoming POST : /login/
+2024-02-23T22:13:28.479Z [info]: employee Login: testregistration5 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk5NWMzODc1LWU0MzItNDFhMC05OTM3LTVkNmRjNzdjOWU5OCIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbjUiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDg3MjY0MDgsImV4cCI6MTcwODcyNzMwOH0.Qef9vbrmiUKI1h55abN2Gzr7xtS6xd5dQLwQeQH3xWU
+2024-02-23T22:14:08.072Z [info]: Incoming GET : /ticket/previoustickets
+2024-02-23T22:14:08.275Z [info]: testregistration5 has accessed their previous tickets.

@@ -8,7 +8,7 @@ async function postTicket(receivedData) {
       employee_id: receivedData.employee_id,
       amount: receivedData.amount,
       description: receivedData.description,
-      status: "pending",
+      ticket_status: "pending",
     });
     return data;
   }
@@ -20,8 +20,16 @@ async function getPendingTickets() {
   return await ticketDAO.getPendingTickets();
 }
 
-async function getNonPendingTicketsById(di) {
+async function getNonPendingTicketsById(id) {
   return await ticketDAO.getNonPendingTicketsById(id);
+}
+
+async function approveTicket(id) {
+  return await ticketDAO.approveTicket(id);
+}
+
+async function denyTicket(id) {
+  return await ticketDAO.denyTicket(id);
 }
 
 function validateTicket(data) {
@@ -31,4 +39,4 @@ function validateTicket(data) {
   return true;
 }
 
-module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById };
+module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById, approveTicket, denyTicket };

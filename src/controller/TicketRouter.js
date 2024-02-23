@@ -3,10 +3,11 @@ const express = require("express");
 const router = express.Router();
 const { logger } = require("../util/logger");
 const authenticateToken = require("../util/authenticateToken");
+const { validateRole } = require("../util/validateRole");
 
 const ticketService = require("../service/TicketService");
 
-// reading
+// Create
 router.post("/", authenticateToken, async (req, res) => {
   const data = await ticketService.postTicket(req.body);
   if (data) {
@@ -19,11 +20,12 @@ router.post("/", authenticateToken, async (req, res) => {
   }
 });
 
-router.get('/pendingtickets', authenticateToken, async (req, res) => {
-  if(req.user.role != "manager") {
+// Read
+router.get("/pendingtickets", authenticateToken, async (req, res) => {
+  if (!validateRole(req.user.role, "manager")) {
     res
       .status(400)
-      .json({ message: `${req.user.username} is not authorized.`});
+      .json({ message: `${req.user.username} is not authorized.` });
   }
 
   const data = await ticketService.getPendingTickets();
@@ -33,26 +35,65 @@ router.get('/pendingtickets', authenticateToken, async (req, res) => {
   } else {
     res
       .status(400)
-      .json({ message: "Pending Tickets cannot be accessed"});
+      .json({ message: "Pending Tickets cannot be accessed", data });
   }
-})
+});
 
-router.get('/previoustickets', authenticateToken, async (req, res) => {
-  if(req.user.role != "employee") {
+router.get("/previoustickets", authenticateToken, async (req, res) => {
+  if (!validateRole(req.user.role, "employee")) {
     res
       .status(400)
-      .json({ message: `${req.user.username} is not authorized.`});
+      .json({ message: `${req.user.username} is not authorized.` });
   }
 
-  const data = await ticketService.getNonPendingTicketsById(req.user.employee_id);
+  const data = await ticketService.getNonPendingTicketsById(
+    req.user.employee_id
+  );
   if (data) {
     logger.info(`${req.user.username} has accessed their previous tickets.`);
     res.status(201).json({ message: "Previous Tickets:", data });
   } else {
     res
       .status(400)
-      .json({ message: "Previous Tickets cannot be accessed"});
+      .json({ message: "Previous Tickets cannot be accessed", data });
   }
-})
+});
+
+// Update
+router.put("/approveticket/:ticket_id", authenticateToken, async (req, res) => {
+  if (!validateRole(req.user.role, "manager")) {
+    res
+      .status(400)
+      .json({ message: `${req.user.username} is not authorized.` });
+  }
+
+  const data = await ticketService.approveTicket(req.params.ticket_id);
+  if (data) {
+    logger.info(
+      `${req.user.username} approved ticket: ${req.params.ticket_id}`
+    );
+    res.status(201).json({ message: "Ticket:", data });
+  } else {
+    res
+      .status(400)
+      .json({ message: "Approve Tickets cannot be accessed", data });
+  }
+});
+
+router.put("/denyticket/:ticket_id", authenticateToken, async (req, res) => {
+  if (!validateRole(req.user.role, "manager")) {
+    res
+      .status(400)
+      .json({ message: `${req.user.username} is not authorized.` });
+  }
+
+  const data = await ticketService.denyTicket(req.params.ticket_id);
+  if (data) {
+    logger.info(`${req.user.username} denied ticket: ${req.params.ticket_id}`);
+    res.status(201).json({ message: "Ticket:", data });
+  } else {
+    res.status(400).json({ message: "Deny Tickets cannot be accessed", data });
+  }
+});
 
 module.exports = router;
