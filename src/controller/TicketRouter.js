@@ -37,4 +37,22 @@ router.get('/pendingtickets', authenticateToken, async (req, res) => {
   }
 })
 
+router.get('/previoustickets', authenticateToken, async (req, res) => {
+  if(req.user.role != "employee") {
+    res
+      .status(400)
+      .json({ message: `${req.user.username} is not authorized.`});
+  }
+
+  const data = await ticketService.getNonPendingTicketsById(req.user.employee_id);
+  if (data) {
+    logger.info(`${req.user.username} has accessed their previous tickets.`);
+    res.status(201).json({ message: "Previous Tickets:", data });
+  } else {
+    res
+      .status(400)
+      .json({ message: "Previous Tickets cannot be accessed"});
+  }
+})
+
 module.exports = router;

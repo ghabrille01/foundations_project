@@ -52,4 +52,23 @@ async function getPendingTickets() {
   return null;
 }
 
-module.exports = { postTicket, getPendingTickets };
+// READ
+async function getNonPendingTicketsById(employee_id) {
+  const command = new ScanCommand({
+    TableName,
+    FilterExpression: "#s <> :s AND #e = :e",
+    ExpressionAttributeNames: { "#s": "status", "#e": "employee_id" },
+    ExpressionAttributeValues: { ":s": "pending", ":e": employee_id },
+  });
+
+  try {
+    const data = await documentClient.send(command);
+    return data.Items;
+  } catch (err) {
+    logger.error(err);
+  }
+
+  return null;
+}
+
+module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById };

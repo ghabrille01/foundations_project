@@ -20,6 +20,10 @@ async function getPendingTickets() {
   return await ticketDAO.getPendingTickets();
 }
 
+async function getNonPendingTicketsById(di) {
+  return await ticketDAO.getNonPendingTicketsById(id);
+}
+
 function validateTicket(data) {
   if (!data || !data.amount || !data.description || !data.employee_id) {
     return false;
@@ -27,4 +31,4 @@ function validateTicket(data) {
   return true;
 }
 
-module.exports = { postTicket, getPendingTickets };
+module.exports = { postTicket, getPendingTickets, getNonPendingTicketsById };
