@@ -294,3 +294,32 @@
 2024-02-23T22:13:28.479Z [info]: employee Login: testregistration5 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk5NWMzODc1LWU0MzItNDFhMC05OTM3LTVkNmRjNzdjOWU5OCIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbjUiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDg3MjY0MDgsImV4cCI6MTcwODcyNzMwOH0.Qef9vbrmiUKI1h55abN2Gzr7xtS6xd5dQLwQeQH3xWU
 2024-02-23T22:14:08.072Z [info]: Incoming GET : /ticket/previoustickets
 2024-02-23T22:14:08.275Z [info]: testregistration5 has accessed their previous tickets.
+2024-02-25T18:09:47.247Z [info]: Incoming POST : /login/
+2024-02-25T18:09:47.683Z [info]: employee Login: testregistration5 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk5NWMzODc1LWU0MzItNDFhMC05OTM3LTVkNmRjNzdjOWU5OCIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbjUiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDg4ODQ1ODcsImV4cCI6MTcwODg4NTQ4N30.GC3Ijd1W-ToR9_qfGt4LGbsV7Whm81-5Xj9frcxmYNg
+2024-02-25T18:10:02.191Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:10:02.433Z [info]: testregistration5 approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:13:08.432Z [info]: Incoming POST : /login/
+2024-02-25T18:13:08.752Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODg4NDc4OCwiZXhwIjoxNzA4ODg1Njg4fQ.cVgFR43Ft3Op9o7PDUxHVk7GJniKYcVcj0hgAhmev94
+2024-02-25T18:13:23.343Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:13:23.345Z [error]: jwt malformed
+2024-02-25T18:14:09.861Z [info]: Incoming POST : /login/
+2024-02-25T18:14:10.001Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODg4NDg1MCwiZXhwIjoxNzA4ODg1NzUwfQ.zKqlU_2w21v-GVSAPgoH7kReBcN_5ro2LBHftEMQ8xM
+2024-02-25T18:14:25.337Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:14:25.338Z [error]: jwt malformed
+2024-02-25T18:14:53.500Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:14:53.848Z [info]: UserWithDigest approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:15:24.764Z [info]: Incoming POST : /login/
+2024-02-25T18:15:25.053Z [info]: employee Login: testregistration5 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6Ijk5NWMzODc1LWU0MzItNDFhMC05OTM3LTVkNmRjNzdjOWU5OCIsInVzZXJuYW1lIjoidGVzdHJlZ2lzdHJhdGlvbjUiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDg4ODQ5MjUsImV4cCI6MTcwODg4NTgyNX0.0zvpSgPkk3CO3FcFKXsX_VTVXd5O3-rfjxkY6nxVRRI
+2024-02-25T18:15:40.953Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:15:40.955Z [error]: User is not authorized.
+2024-02-25T18:15:41.010Z [info]: testregistration5 approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:16:25.441Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:16:25.449Z [error]: User is not authorized.
+2024-02-25T18:16:26.997Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:16:26.999Z [error]: User is not authorized.
+2024-02-25T18:16:27.621Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:16:27.623Z [error]: User is not authorized.
+2024-02-25T18:16:38.365Z [info]: Incoming POST : /login/
+2024-02-25T18:16:38.851Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODg4NDk5OCwiZXhwIjoxNzA4ODg1ODk4fQ.bft-6fvlsoDmqaxMaAfytxRe4jTEMuoWGvkwCK8-LbI
+2024-02-25T18:17:01.896Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-25T18:17:02.292Z [info]: UserWithDigest approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
