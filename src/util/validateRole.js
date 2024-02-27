@@ -6,7 +6,7 @@ const validateIsEmployee = (req, res, next) => {
     req.user.role != "employee" ||
     req.user.role != "manager"
   ) {
-    logger.error(`User is not authorized.`);
+    logger.error(`User failed employee authorization.`);
     return res
       .status(400)
       .json({ message: `User is not authorized.` });
@@ -16,7 +16,7 @@ const validateIsEmployee = (req, res, next) => {
 
 const validateIsManager = (req, res, next) => {
   if (!req.user.role || req.user.role != "manager") {
-    logger.error(`User is not authorized.`);
+    logger.error(`User failed manager authorization.`);
     return res
       .status(400)
       .json({ message: `User is not authorized.` });

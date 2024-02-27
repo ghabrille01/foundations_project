@@ -323,3 +323,57 @@
 2024-02-25T18:16:38.851Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImJmNDFlMWNhLWUzMmItNGUxNC1iNjA2LTg3MjU2NTM1NDQ5ZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwODg4NDk5OCwiZXhwIjoxNzA4ODg1ODk4fQ.bft-6fvlsoDmqaxMaAfytxRe4jTEMuoWGvkwCK8-LbI
 2024-02-25T18:17:01.896Z [info]: Incoming PUT : /ticket/approveticket/6764190a-f140-4b6a-b8e5-378dc5afb10e
 2024-02-25T18:17:02.292Z [info]: UserWithDigest approved ticket: 6764190a-f140-4b6a-b8e5-378dc5afb10e
+2024-02-26T15:38:34.175Z [info]: Incoming POST : /register
+2024-02-26T15:38:34.549Z [info]: Created Employee: postmanUser
+2024-02-26T15:38:36.625Z [info]: Incoming POST : /register
+2024-02-26T15:39:29.037Z [info]: Incoming POST : /register
+2024-02-26T15:39:29.325Z [info]: Created Employee: postmanUser
+2024-02-26T15:39:32.387Z [info]: Incoming POST : /register
+2024-02-26T15:39:32.519Z [info]: Created Employee: postmanUser
+2024-02-26T15:43:08.347Z [info]: Incoming POST : /register
+2024-02-26T15:43:08.622Z [info]: Created Employee: postmanUser
+2024-02-26T15:43:09.292Z [info]: Incoming POST : /register
+2024-02-26T15:43:09.412Z [info]: Created Employee: postmanUser
+2024-02-26T17:52:00.275Z [info]: Incoming POST : /register
+2024-02-26T17:52:00.651Z [info]: Created Employee: postmanUser
+2024-02-26T17:52:01.724Z [info]: Incoming POST : /register
+2024-02-26T17:53:05.764Z [info]: Incoming POST : /register
+2024-02-26T17:53:06.801Z [info]: Incoming POST : /register
+2024-02-26T17:53:10.901Z [info]: Incoming POST : /register
+2024-02-26T17:53:11.058Z [info]: Created Employee: postmanUser2
+2024-02-26T17:53:12.010Z [info]: Incoming POST : /register
+2024-02-26T17:54:53.295Z [info]: Incoming POST : /register
+2024-02-26T17:55:09.769Z [info]: Incoming POST : /register
+2024-02-26T17:55:10.116Z [info]: Created Employee: postmanUser3
+2024-02-26T17:55:11.010Z [info]: Incoming POST : /register
+2024-02-26T17:55:12.402Z [info]: Incoming POST : /register
+2024-02-26T17:55:23.751Z [info]: Incoming POST : /register
+2024-02-27T21:11:48.645Z [info]: Incoming POST : /register
+2024-02-27T21:11:48.932Z [info]: Created Employee: postmanUser3
+2024-02-27T21:11:51.080Z [info]: Incoming POST : /register
+2024-02-27T21:11:51.232Z [info]: Created Employee: postmanUser3
+2024-02-27T21:11:52.068Z [info]: Incoming POST : /register
+2024-02-27T21:11:52.801Z [info]: Created Employee: postmanUser3
+2024-02-27T21:14:24.284Z [info]: Incoming POST : /register
+2024-02-27T21:14:24.560Z [info]: Created Employee: postmanUser3
+2024-02-27T21:14:25.167Z [info]: Incoming POST : /register
+2024-02-27T21:14:25.326Z [info]: Created Employee: postmanUser3
+2024-02-27T21:16:14.782Z [info]: Incoming POST : /register
+2024-02-27T21:16:15.125Z [info]: Created Employee: postmanUser3
+2024-02-27T21:16:15.931Z [info]: Incoming POST : /register
+2024-02-27T21:16:16.049Z [info]: Created Employee: postmanUser3
+2024-02-27T21:22:50.765Z [info]: Incoming POST : /register
+2024-02-27T21:22:50.993Z [error]: ExpressionAttributeValues must not be empty
+2024-02-27T21:22:51.125Z [info]: Created Employee: postmanUser3
+2024-02-27T21:22:52.493Z [info]: Incoming POST : /register
+2024-02-27T21:22:52.549Z [error]: ExpressionAttributeValues must not be empty
+2024-02-27T21:22:52.680Z [info]: Created Employee: postmanUser3
+2024-02-27T21:23:20.235Z [info]: Incoming POST : /register
+2024-02-27T21:23:21.478Z [info]: Incoming POST : /register
+2024-02-27T21:23:22.586Z [info]: Incoming POST : /register
+2024-02-27T21:23:55.413Z [info]: Incoming POST : /register
+2024-02-27T21:23:55.414Z [error]: Invalid request body. [object Object]
+2024-02-27T21:24:02.254Z [info]: Incoming POST : /register
+2024-02-27T21:24:06.419Z [info]: Incoming POST : /register
+2024-02-27T21:24:06.600Z [info]: Created Employee: postmanUser4
+2024-02-27T21:24:08.271Z [info]: Incoming POST : /register

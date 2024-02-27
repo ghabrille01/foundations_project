@@ -37,6 +37,7 @@ async function postEmployee(Item) {
   const command = new PutCommand({
     TableName,
     Item,
+    ConditionExpression: "attribute_not_exists(username)",
   });
 
   try {

@@ -4,9 +4,10 @@ const router = express.Router();
 const { logger } = require("../util/logger");
 
 const registerService = require("../service/RegisterService");
+const { validateEmployeeBody } = require("../util/validateReqBody");
 
 // reading
-router.post("/", async (req, res) => {
+router.post("/", validateEmployeeBody, async (req, res) => {
   const data = await registerService.postEmployee(req.body);
   if (data) {
     logger.info(`Created Employee: ${data.username}`);
@@ -14,7 +15,7 @@ router.post("/", async (req, res) => {
   } else {
     res
       .status(400)
-      .json({ message: "Employee was not created", receivedData: req.body });
+      .json({ message: "Employee was not created. Invalid Credentials.", receivedData: req.body });
   }
 });
 

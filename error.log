@@ -104,3 +104,6 @@
 2024-02-25T18:16:25.449Z [error]: User is not authorized.
 2024-02-25T18:16:26.999Z [error]: User is not authorized.
 2024-02-25T18:16:27.623Z [error]: User is not authorized.
+2024-02-27T21:22:50.993Z [error]: ExpressionAttributeValues must not be empty
+2024-02-27T21:22:52.549Z [error]: ExpressionAttributeValues must not be empty
+2024-02-27T21:23:55.414Z [error]: Invalid request body. [object Object]
