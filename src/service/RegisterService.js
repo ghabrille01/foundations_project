@@ -10,7 +10,7 @@ async function postEmployee(receivedData) {
       password: await bcrypt.hash(receivedData.password, 10),
       role: "employee",
     });
-    return data;
+    return data ? data : null;
   }
 
   return null;

@@ -11,9 +11,9 @@ const validateEmployeeBody = (req, res, next) => {
 const validateTicketBody = (req, res, next) => {
   if (
     !req.body ||
+    !req.body.ticket_type ||
     !req.body.amount ||
-    !req.body.description ||
-    !req.body.employee_id
+    !req.body.description
   ) {
     logger.error(`Invalid request body. ${req.body}`);
     return res.status(400).json({ message: `Invalid request body.` });

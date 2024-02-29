@@ -107,3 +107,96 @@
 2024-02-27T21:22:50.993Z [error]: ExpressionAttributeValues must not be empty
 2024-02-27T21:22:52.549Z [error]: ExpressionAttributeValues must not be empty
 2024-02-27T21:23:55.414Z [error]: Invalid request body. [object Object]
+2024-02-27T21:25:15.408Z [error]: Invalid request body. [object Object]
+2024-02-28T00:14:22.718Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:23.104Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:57.186Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:57.912Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:01.479Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:05.964Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:44.328Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:49.844Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:18:25.482Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:19:41.933Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:21:01.666Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T18:19:45.299Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:19:46.822Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:21:07.158Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:21:48.027Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-28T18:21:49.067Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-28T18:22:05.968Z [error]: Cannot read from backfilling global secondary index: username-index
+2024-02-28T18:22:07.011Z [error]: Cannot read from backfilling global secondary index: username-index
+2024-02-28T19:59:18.763Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T20:13:12.909Z [error]: User failed employee authorization.
+2024-02-28T20:16:25.418Z [error]: Invalid request body. [object Object]
+2024-02-28T20:19:58.907Z [error]: Either the KeyConditions or KeyConditionExpression parameter must be specified in the request.
+2024-02-28T20:23:40.314Z [error]: Invalid request body. [object Object]
+2024-02-28T20:28:03.203Z [error]: jwt expired
+2024-02-28T21:22:19.208Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:34.164Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:41.691Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:48.147Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:53.532Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:59.303Z [error]: Invalid request body. [object Object]
+2024-02-28T21:52:55.942Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:53:51.582Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:54:44.984Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:55:59.536Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:00.768Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:16.658Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:59.318Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:58:35.101Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:00:36.331Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:00:51.410Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:01.890Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:31.449Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:39.881Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:44.493Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T23:32:15.285Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T00:33:49.581Z [error]: jwt expired
+2024-02-29T00:42:53.212Z [error]: jwt expired
+2024-02-29T00:48:07.485Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:48:47.420Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:48:58.476Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:52:58.945Z [error]: Invalid UpdateExpression: Syntax error; token: "Set", near: ", Set resolver"
+2024-02-29T04:05:25.439Z [error]: jwt expired
+2024-02-29T04:09:33.302Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.430Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.484Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.596Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.895Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.957Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:34.013Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.861Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.868Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.975Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.977Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.262Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.316Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.373Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.919Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.920Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.976Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:38.028Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:38.036Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.909Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.961Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.962Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:19.933Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:20.037Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:19:57.637Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:24:07.379Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:24:44.754Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:25:55.698Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:27:32.763Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:31:38.929Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:36:40.802Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:38:41.767Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:39:43.141Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:41:12.817Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:45:41.425Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:48:19.602Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:51:36.183Z [error]: ExpressionAttributeValues must not be empty

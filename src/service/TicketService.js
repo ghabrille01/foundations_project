@@ -1,41 +1,49 @@
 const ticketDAO = require("../repository/TicketDAO");
 const uuid = require("uuid");
 
-async function postTicket(receivedData) {
-  //if (validateTicket(receivedData)) {
+async function postTicket(employee_id, receivedData) {
   let data = await ticketDAO.postTicket({
     ticket_id: uuid.v4(),
-    employee_id: receivedData.employee_id,
+    ticket_type: receivedData.ticket_type,
+    employee_id,
     amount: receivedData.amount,
     description: receivedData.description,
     ticket_status: "pending",
+    resolver: "",
   });
-  return data;
-  //}
-
-  return null;
+  return data ? data : null;
 }
 
-async function getPendingTickets() {
-  return await ticketDAO.getPendingTickets();
+async function getTickets(){
+  const data = await ticketDAO.getTickets();
+  return data ? data : null;
 }
 
-async function getNonPendingTicketsById(id) {
-  return await ticketDAO.getNonPendingTicketsById(id);
+async function getTicketsByStatus(status) {
+  const data = await ticketDAO.getTicketsByStatus(status);
+  return data ? data : null;
 }
 
-async function approveTicket(id) {
-  return await ticketDAO.approveTicket(id);
+async function getTicketsById(id) {
+  const data = await ticketDAO.getTicketsById(id);
+  return data ? data : null;
 }
 
-async function denyTicket(id) {
-  return await ticketDAO.denyTicket(id);
+async function getTicketsByIdAndStatus(id, status) {
+  const data = await ticketDAO.getTicketsByIdAndStatus(id, status);
+  return data ? data : null;
+}
+
+async function updateTicketStatus(id, status, resolver) {
+  const data = await ticketDAO.updateTicketStatus(id, status, resolver);
+  return data ? data : null;
 }
 
 module.exports = {
   postTicket,
-  getPendingTickets,
-  getNonPendingTicketsById,
-  approveTicket,
-  denyTicket,
+  getTickets,
+  getTicketsByStatus,
+  getTicketsById,
+  getTicketsByIdAndStatus,
+  updateTicketStatus,
 };

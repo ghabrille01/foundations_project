@@ -377,3 +377,276 @@
 2024-02-27T21:24:06.419Z [info]: Incoming POST : /register
 2024-02-27T21:24:06.600Z [info]: Created Employee: postmanUser4
 2024-02-27T21:24:08.271Z [info]: Incoming POST : /register
+2024-02-27T21:25:15.404Z [info]: Incoming POST : /register
+2024-02-27T21:25:15.408Z [error]: Invalid request body. [object Object]
+2024-02-27T21:25:18.243Z [info]: Incoming POST : /register
+2024-02-28T00:14:22.718Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:23.104Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:57.186Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:14:57.912Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:01.479Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:05.964Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:44.328Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:17:49.844Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:18:25.482Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:19:41.933Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T00:21:01.666Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T18:19:45.035Z [info]: Incoming POST : /register
+2024-02-28T18:19:45.299Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:19:45.432Z [info]: Created Employee: postmanUser4
+2024-02-28T18:19:46.769Z [info]: Incoming POST : /register
+2024-02-28T18:19:46.822Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:19:46.946Z [info]: Created Employee: postmanUser4
+2024-02-28T18:21:06.938Z [info]: Incoming POST : /register
+2024-02-28T18:21:07.158Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T18:21:07.292Z [info]: Created Employee: postmanUser4
+2024-02-28T18:21:48.016Z [info]: Incoming POST : /register
+2024-02-28T18:21:48.027Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-28T18:21:48.304Z [info]: Created Employee: postmanUser4
+2024-02-28T18:21:49.066Z [info]: Incoming POST : /register
+2024-02-28T18:21:49.067Z [error]: Cannot read properties of undefined (reading '0')
+2024-02-28T18:21:49.180Z [info]: Created Employee: postmanUser4
+2024-02-28T18:22:05.732Z [info]: Incoming POST : /register
+2024-02-28T18:22:05.968Z [error]: Cannot read from backfilling global secondary index: username-index
+2024-02-28T18:22:06.106Z [info]: Created Employee: postmanUser4
+2024-02-28T18:22:06.957Z [info]: Incoming POST : /register
+2024-02-28T18:22:07.011Z [error]: Cannot read from backfilling global secondary index: username-index
+2024-02-28T18:22:07.138Z [info]: Created Employee: postmanUser4
+2024-02-28T18:34:16.872Z [info]: Incoming POST : /register
+2024-02-28T18:34:18.298Z [info]: Incoming POST : /register
+2024-02-28T19:05:06.685Z [info]: Incoming POST : /register
+2024-02-28T19:05:07.010Z [info]: Created Employee: postmanUser78
+2024-02-28T19:05:07.892Z [info]: Incoming POST : /register
+2024-02-28T19:57:38.481Z [info]: Incoming POST : /login/
+2024-02-28T19:59:18.541Z [info]: Incoming POST : /login/
+2024-02-28T19:59:18.763Z [error]: 1 validation error detected: Value null at 'key' failed to satisfy constraint: Member must not be null
+2024-02-28T20:00:32.655Z [info]: Incoming POST : /login/
+2024-02-28T20:00:44.360Z [info]: Incoming POST : /login
+2024-02-28T20:01:28.461Z [info]: Incoming POST : /register
+2024-02-28T20:01:28.646Z [info]: Created Employee: UserWithDigest
+2024-02-28T20:02:00.307Z [info]: Incoming POST : /login
+2024-02-28T20:02:00.446Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1MDUyMCwiZXhwIjoxNzA5MTUxNDIwfQ.P_vFsGmAAa5pFur8IJZraA2MWytMN5dqu71PQ3BMPQY
+2024-02-28T20:02:16.828Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-28T20:12:36.873Z [info]: Incoming POST : /login/
+2024-02-28T20:12:37.191Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1MTE1NywiZXhwIjoxNzA5MTUyMDU3fQ.ZdnCimfcX5VJbwi8WhRXM4XBPh8M4JZt6J42JO6ABZs
+2024-02-28T20:13:12.906Z [info]: Incoming POST : /ticket
+2024-02-28T20:13:12.909Z [error]: User failed employee authorization.
+2024-02-28T20:16:25.413Z [info]: Incoming POST : /ticket
+2024-02-28T20:16:25.418Z [error]: Invalid request body. [object Object]
+2024-02-28T20:18:35.708Z [info]: Incoming POST : /ticket
+2024-02-28T20:18:35.958Z [info]: Created Ticket ID : [object Object]
+2024-02-28T20:18:52.811Z [info]: Incoming POST : /ticket
+2024-02-28T20:18:52.872Z [info]: Created Ticket ID : [object Object]
+2024-02-28T20:19:02.769Z [info]: Incoming POST : /ticket
+2024-02-28T20:19:02.830Z [info]: Created Ticket ID : [object Object]
+2024-02-28T20:19:16.393Z [info]: Incoming POST : /login/
+2024-02-28T20:19:16.684Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1MTU1NiwiZXhwIjoxNzA5MTUyNDU2fQ.uQDNd9-AC7UOfkMZAvuCyIeJhS7FW2c_xoCJBubSB2M
+2024-02-28T20:19:58.843Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-28T20:19:58.907Z [error]: Either the KeyConditions or KeyConditionExpression parameter must be specified in the request.
+2024-02-28T20:22:03.655Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-28T20:22:03.883Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-28T20:23:40.311Z [info]: Incoming PUT : /ticket/approveticket/e27f817e-c90a-4e6c-9100-21cc98709e3d
+2024-02-28T20:23:40.314Z [error]: Invalid request body. [object Object]
+2024-02-28T20:24:20.063Z [info]: Incoming PUT : /ticket/approveticket/e27f817e-c90a-4e6c-9100-21cc98709e3d
+2024-02-28T20:24:20.317Z [info]: UserWithDigest approved ticket: e27f817e-c90a-4e6c-9100-21cc98709e3d
+2024-02-28T20:28:03.199Z [info]: Incoming POST : /ticket
+2024-02-28T20:28:03.203Z [error]: jwt expired
+2024-02-28T20:28:13.530Z [info]: Incoming POST : /login/
+2024-02-28T20:28:13.855Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1MjA5MywiZXhwIjoxNzA5MTUyOTkzfQ.Y_iScMjawTu1QXM0zULNf6oZQC1H9yI02j3QDwJH5mU
+2024-02-28T20:28:31.631Z [info]: Incoming POST : /ticket
+2024-02-28T20:28:31.924Z [info]: Created Ticket ID : [object Object]
+2024-02-28T20:28:43.156Z [info]: Incoming POST : /ticket
+2024-02-28T20:28:43.209Z [info]: Created Ticket ID : [object Object]
+2024-02-28T20:29:17.521Z [info]: Incoming PUT : /ticket/approveticket/decb772e-d8ee-4bbb-8ad2-61e675760f48
+2024-02-28T20:29:17.581Z [info]: UserWithDigest approved ticket: decb772e-d8ee-4bbb-8ad2-61e675760f48
+2024-02-28T20:29:36.389Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-28T20:29:36.440Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-28T20:31:32.825Z [info]: Incoming GET : /ticket/previoustickets
+2024-02-28T20:31:33.017Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-28T21:22:00.244Z [info]: Incoming POST : /login/
+2024-02-28T21:22:00.514Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1NTMyMCwiZXhwIjoxNzA5MTU2MjIwfQ.vzottwOp-DzbT__KXt7ZL4jAvV-RajqaTQdXYbup3X4
+2024-02-28T21:22:19.206Z [info]: Incoming POST : /ticket
+2024-02-28T21:22:19.208Z [error]: Invalid request body. [object Object]
+2024-02-28T21:23:00.257Z [info]: Incoming POST : /ticket
+2024-02-28T21:28:58.531Z [info]: Incoming POST : /login/
+2024-02-28T21:28:58.844Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE1NTczOCwiZXhwIjoxNzA5MTU2NjM4fQ.T4yi6wIn6ykjah7D800sg29gYnGTYjD2AliTWO4a8us
+2024-02-28T21:29:27.474Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:27.659Z [info]: Created Ticket ID : [object Object]
+2024-02-28T21:29:34.163Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:34.164Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:41.690Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:41.691Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:48.145Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:48.147Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:53.531Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:53.532Z [error]: Invalid request body. [object Object]
+2024-02-28T21:29:59.302Z [info]: Incoming POST : /ticket
+2024-02-28T21:29:59.303Z [error]: Invalid request body. [object Object]
+2024-02-28T21:30:09.657Z [info]: Incoming POST : /ticket
+2024-02-28T21:52:55.942Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:53:51.582Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:54:44.984Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:55:59.536Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:00.768Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:16.658Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:57:59.318Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T21:58:35.101Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:00:36.331Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:00:51.410Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:01.890Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:31.449Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:39.881Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T22:03:44.493Z [error]: ExpressionAttributeValues must not be empty
+2024-02-28T23:32:15.285Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T00:00:06.235Z [info]: Incoming POST : /register
+2024-02-29T00:00:06.605Z [info]: Created Employee: postmanUser20
+2024-02-29T00:00:07.698Z [info]: Incoming POST : /register
+2024-02-29T00:00:14.774Z [info]: Incoming POST : /login/
+2024-02-29T00:00:14.905Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NDgxNCwiZXhwIjoxNzA5MTY1NzE0fQ.plxVXTo6yeVn3BIYxoONPijDW9lwKy7Sh_IBju2J7Do
+2024-02-29T00:00:25.000Z [info]: Incoming POST : /ticket
+2024-02-29T00:00:25.182Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:06:57.786Z [info]: Incoming POST : /ticket
+2024-02-29T00:06:58.027Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:07:07.556Z [info]: Incoming POST : /login/
+2024-02-29T00:07:07.804Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NTIyNywiZXhwIjoxNzA5MTY2MTI3fQ.o_zTJFZgwFXjCUXZfjhnmoOYmY6BaVmo4E3Cv-vt0mo
+2024-02-29T00:07:49.877Z [info]: Incoming GET : /ticket/pendingtickets
+2024-02-29T00:07:49.931Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:07:58.946Z [info]: Incoming GET : /ticket/pendingtickets/
+2024-02-29T00:07:58.996Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:15:13.603Z [info]: Incoming POST : /login/
+2024-02-29T00:15:13.931Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NTcxMywiZXhwIjoxNzA5MTY2NjEzfQ.X_QECr9vF1MqRMjJUmjt8JDsC98y0U4WgOLMPPB4moA
+2024-02-29T00:17:21.692Z [info]: Incoming POST : /login/
+2024-02-29T00:17:22.011Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NTg0MiwiZXhwIjoxNzA5MTY2NzQyfQ.hy80amUZFs7LVYqpX9gNiRDKhB7ThUBEiiuuJZ2_iFs
+2024-02-29T00:17:36.075Z [info]: Incoming POST : /ticket
+2024-02-29T00:32:52.336Z [info]: Incoming POST : /login/
+2024-02-29T00:32:52.665Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2Njc3MiwiZXhwIjoxNzA5MTY3NjcyfQ.iyLTEiSpHCte-f3a1akIezI2wkz3sxz6S_2D3ryv7Xo
+2024-02-29T00:33:11.065Z [info]: Incoming POST : /ticket
+2024-02-29T00:33:11.274Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:33:23.243Z [info]: Incoming POST : /ticket
+2024-02-29T00:33:23.296Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:33:49.578Z [info]: Incoming GET : /ticket/previousTickets/
+2024-02-29T00:33:49.581Z [error]: jwt expired
+2024-02-29T00:33:56.570Z [info]: Incoming GET : /ticket/previousTickets/
+2024-02-29T00:33:56.622Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:34:04.906Z [info]: Incoming GET : /ticket/previousTickets/pending
+2024-02-29T00:34:04.956Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T00:35:29.416Z [info]: Incoming GET : /ticket/previousTickets
+2024-02-29T00:35:29.599Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:35:39.648Z [info]: Incoming GET : /ticket/previoustickets
+2024-02-29T00:35:39.701Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:35:43.387Z [info]: Incoming POST : /login/
+2024-02-29T00:35:43.636Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2Njk0MywiZXhwIjoxNzA5MTY3ODQzfQ.bXKVVCjNRfiu7U_sKfIJWw3OL9du2jQYO1s-iU03SYs
+2024-02-29T00:35:56.438Z [info]: Incoming POST : /login/
+2024-02-29T00:35:56.745Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2Njk1NiwiZXhwIjoxNzA5MTY3ODU2fQ.ZdnFDA5KiXbag8uOIiSbAdvpOd6G4eP1aZQlsFes2EU
+2024-02-29T00:36:08.543Z [info]: Incoming GET : /ticket/previoustickets
+2024-02-29T00:36:08.721Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:38:10.523Z [info]: Incoming POST : /login/
+2024-02-29T00:38:10.841Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NzA5MCwiZXhwIjoxNzA5MTY3OTkwfQ.gGIVhyE3C9ZVTsathdN8b-PbjajLpJyKQJPkuiKqwuw
+2024-02-29T00:40:17.048Z [info]: Incoming POST : /login/
+2024-02-29T00:40:17.348Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NzIxNywiZXhwIjoxNzA5MTY4MTE3fQ.O4Pu956_l3qtcptZyeaYjfPV9_dOgxVz0xgGeJuSC2A
+2024-02-29T00:40:32.537Z [info]: Incoming POST : /ticket
+2024-02-29T00:40:32.723Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:40:43.811Z [info]: Incoming POST : /ticket
+2024-02-29T00:40:43.864Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:40:53.410Z [info]: Incoming POST : /ticket
+2024-02-29T00:40:53.458Z [info]: Created Ticket ID : [object Object]
+2024-02-29T00:41:08.269Z [info]: Incoming GET : /ticket/
+2024-02-29T00:41:08.317Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T00:41:39.215Z [info]: Incoming GET : /ticket/pending
+2024-02-29T00:41:39.282Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:41:45.149Z [info]: Incoming GET : /ticket/approved
+2024-02-29T00:41:45.208Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:41:51.040Z [info]: Incoming GET : /ticket/denied
+2024-02-29T00:41:51.097Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:42:53.210Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/approved
+2024-02-29T00:42:53.212Z [error]: jwt expired
+2024-02-29T00:43:07.347Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/approved
+2024-02-29T00:43:07.543Z [info]: UserWithDigest changed ticket 586b9a7d-b8e7-4901-890c-2215a5fafe8d to approved
+2024-02-29T00:43:49.075Z [info]: Incoming PUT : /ticket/1eb8371c-834e-4920-a01d-4f5ba5654c52/denied
+2024-02-29T00:43:49.133Z [info]: UserWithDigest changed ticket 1eb8371c-834e-4920-a01d-4f5ba5654c52 to denied
+2024-02-29T00:44:00.658Z [info]: Incoming GET : /ticket/
+2024-02-29T00:44:00.712Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T00:44:06.681Z [info]: Incoming GET : /ticket/pending
+2024-02-29T00:44:06.731Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:44:11.923Z [info]: Incoming GET : /ticket/approved
+2024-02-29T00:44:11.975Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:44:15.748Z [info]: Incoming GET : /ticket/pending
+2024-02-29T00:44:15.804Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:44:18.492Z [info]: Incoming GET : /ticket/denied
+2024-02-29T00:44:18.546Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:47:52.637Z [info]: Incoming POST : /login/
+2024-02-29T00:47:52.957Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NzY3MiwiZXhwIjoxNzA5MTY4NTcyfQ.aLuXb960Q2dpxgdJyNOFMAHocBj3Zmb2pwOAqLwlT74
+2024-02-29T00:48:07.287Z [info]: Incoming PUT : /ticket/1eb8371c-834e-4920-a01d-4f5ba5654c52/denied
+2024-02-29T00:48:07.485Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:48:47.354Z [info]: Incoming PUT : /ticket/1eb8371c-834e-4920-a01d-4f5ba5654c52/denied
+2024-02-29T00:48:47.420Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:48:58.419Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/denied
+2024-02-29T00:48:58.476Z [error]: Invalid UpdateExpression: Syntax error; token: "resolver", near: ":ticket_status resolver ="
+2024-02-29T00:50:11.741Z [info]: Incoming POST : /login/
+2024-02-29T00:50:12.010Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE2NzgxMiwiZXhwIjoxNzA5MTY4NzEyfQ.17ZwJynJbfn1nfbpkz3NTmRHxjagY2y3EMsVacH2FXk
+2024-02-29T00:50:25.771Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T00:50:40.944Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T00:50:41.175Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T00:52:58.713Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/denied
+2024-02-29T00:52:58.945Z [error]: Invalid UpdateExpression: Syntax error; token: "Set", near: ", Set resolver"
+2024-02-29T00:53:48.186Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/denied
+2024-02-29T00:53:48.405Z [info]: UserWithDigest changed ticket 586b9a7d-b8e7-4901-890c-2215a5fafe8d to denied
+2024-02-29T00:53:56.891Z [info]: Incoming PUT : /ticket/586b9a7d-b8e7-4901-890c-2215a5fafe8d/approved
+2024-02-29T00:53:56.953Z [info]: UserWithDigest changed ticket 586b9a7d-b8e7-4901-890c-2215a5fafe8d to approved
+2024-02-29T03:39:01.491Z [info]: Incoming POST : /login/
+2024-02-29T03:39:01.824Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE3Nzk0MSwiZXhwIjoxNzA5MTc4ODQxfQ.EDTT0x2HEwS3LX7DUM-pRKiRBJMe74st1-rpVDnzTLM
+2024-02-29T03:39:19.511Z [info]: Incoming GET : /ticket/manager
+2024-02-29T03:47:20.231Z [info]: Incoming POST : /register
+2024-02-29T03:47:20.593Z [info]: Created Employee: postmanUser21
+2024-02-29T03:47:22.364Z [info]: Incoming POST : /register
+2024-02-29T03:47:27.047Z [info]: Incoming POST : /login/
+2024-02-29T03:47:27.184Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE3ODQ0NywiZXhwIjoxNzA5MTc5MzQ3fQ.Oz1D7KF7oe_p571Q_34fX1YmTji0RdshcXHuqtjFC0I
+2024-02-29T03:48:17.247Z [info]: Incoming GET : /ticket/manager
+2024-02-29T03:49:34.570Z [info]: Incoming GET : /ticket/manager
+2024-02-29T04:05:25.429Z [info]: Incoming GET : /ticket/manager
+2024-02-29T04:05:25.439Z [error]: jwt expired
+2024-02-29T04:05:29.393Z [info]: Incoming POST : /login/
+2024-02-29T04:05:29.727Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTE3OTUyOSwiZXhwIjoxNzA5MTgwNDI5fQ.LDWy4kLenystag7_dBiATIsxb0PmnzQYbuZNdXzU6tc
+2024-02-29T04:05:52.604Z [info]: Incoming GET : /ticket/manager
+2024-02-29T04:06:14.275Z [info]: Incoming GET : /ticket/manager
+2024-02-29T04:06:14.511Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T04:09:33.302Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.430Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.484Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.596Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.895Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:33.957Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:09:34.013Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.861Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.868Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.975Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:29.977Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.262Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.316Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:30.373Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.919Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.920Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:37.976Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:38.028Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:11:38.036Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.851Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.909Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.961Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:11.962Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:19.933Z [error]: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:16:20.037Z [error]: Unable to read item. Error: ValidationException: 1 validation error detected: Value null at 'tableName' failed to satisfy constraint: Member must not be null
+2024-02-29T04:19:57.637Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:24:07.379Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:24:44.754Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:25:55.698Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:27:32.763Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:31:38.929Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:36:40.802Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:38:41.767Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:39:43.141Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:41:12.817Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:45:41.425Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:48:19.602Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T04:51:36.183Z [error]: ExpressionAttributeValues must not be empty

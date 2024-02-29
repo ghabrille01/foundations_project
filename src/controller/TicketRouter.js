@@ -18,7 +18,7 @@ router.post(
   validateIsEmployee,
   validateTicketBody,
   async (req, res) => {
-    const data = await ticketService.postTicket(req.body);
+    const data = await ticketService.postTicket(req.user.employee_id, req.body);
     if (data) {
       logger.info(`Created Ticket ID : ${data}`);
       res.status(201).json({ message: "Created Ticket ID", data });
@@ -32,11 +32,11 @@ router.post(
 
 // Read
 router.get(
-  "/pendingtickets",
+  "/manager",
   authenticateToken,
   validateIsManager,
   async (req, res) => {
-    const data = await ticketService.getPendingTickets();
+    const data = await ticketService.getTickets();
     if (data) {
       logger.info(`${req.user.username} has accessed pending tickets.`);
       res.status(201).json({ message: "Pending Tickets:", data });
@@ -49,13 +49,47 @@ router.get(
 );
 
 router.get(
-  "/previoustickets",
+  "/manager/:ticket_status",
+  authenticateToken,
+  validateIsManager,
+  async (req, res) => {
+    const data = await ticketService.getTicketsByStatus(
+      req.params.ticket_status
+    );
+    if (data) {
+      logger.info(`${req.user.username} has accessed pending tickets.`);
+      res.status(201).json({ message: "Pending Tickets:", data });
+    } else {
+      res
+        .status(400)
+        .json({ message: "Pending Tickets cannot be accessed", data });
+    }
+  }
+);
+
+router.get("/", authenticateToken, validateIsEmployee, async (req, res) => {
+  const data = await ticketService.getTicketsById(req.user.employee_id);
+
+  if (data) {
+    logger.info(`${req.user.username} has accessed their previous tickets.`);
+    res.status(201).json({ message: "Previous Tickets:", data });
+  } else {
+    res
+      .status(400)
+      .json({ message: "Previous Tickets cannot be accessed", data });
+  }
+});
+
+router.get(
+  "/:ticket_status",
   authenticateToken,
   validateIsEmployee,
   async (req, res) => {
-    const data = await ticketService.getNonPendingTicketsById(
-      req.user.employee_id
+    const data = await ticketService.getTicketsByIdAndStatus(
+      req.user.employee_id,
+      req.params.ticket_status
     );
+
     if (data) {
       logger.info(`${req.user.username} has accessed their previous tickets.`);
       res.status(201).json({ message: "Previous Tickets:", data });
@@ -69,41 +103,22 @@ router.get(
 
 // Update
 router.put(
-  "/approveticket/:ticket_id",
+  "/:ticket_id/:ticket_status",
   authenticateToken,
   validateIsManager,
-  validateTicketBody,
   async (req, res) => {
-    const data = await ticketService.approveTicket(req.params.ticket_id);
+    const data = await ticketService.updateTicketStatus(
+      req.params.ticket_id,
+      req.params.ticket_status,
+      req.user.employee_id
+    );
     if (data) {
       logger.info(
-        `${req.user.username} approved ticket: ${req.params.ticket_id}`
+        `${req.user.username} changed ticket ${req.params.ticket_id} to ${req.params.ticket_status}`
       );
       res.status(201).json({ message: "Ticket:", data });
     } else {
-      res
-        .status(400)
-        .json({ message: "Approve Tickets cannot be accessed", data });
-    }
-  }
-);
-
-router.put(
-  "/denyticket/:ticket_id",
-  authenticateToken,
-  validateIsManager,
-  validateTicketBody,
-  async (req, res) => {
-    const data = await ticketService.denyTicket(req.params.ticket_id);
-    if (data) {
-      logger.info(
-        `${req.user.username} denied ticket: ${req.params.ticket_id}`
-      );
-      res.status(201).json({ message: "Ticket:", data });
-    } else {
-      res
-        .status(400)
-        .json({ message: "Deny Tickets cannot be accessed", data });
+      res.status(400).json({ message: "Tickets cannot be accessed", data });
     }
   }
 );

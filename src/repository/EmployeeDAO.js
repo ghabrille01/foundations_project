@@ -1,8 +1,9 @@
+require("dotenv").config();
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
 const {
   DynamoDBDocumentClient,
   PutCommand,
-  ScanCommand,
+  QueryCommand,
 } = require("@aws-sdk/lib-dynamodb");
 
 const client = new DynamoDBClient({ region: "us-west-2" });
@@ -11,13 +12,14 @@ const documentClient = DynamoDBDocumentClient.from(client);
 
 const { logger } = require("../util/logger");
 
-const TableName = "Foundation_Employees";
+const TableName = process.env.EMPLOYEE_TABLE_NAME;
 
 // READ
 async function getEmployeeByUsername(username) {
-  const command = new ScanCommand({
+  const command = new QueryCommand({
     TableName,
-    FilterExpression: "#u = :u",
+    IndexName: "username-index",
+    KeyConditionExpression: "#u = :u",
     ExpressionAttributeNames: { "#u": "username" },
     ExpressionAttributeValues: { ":u": username },
   });

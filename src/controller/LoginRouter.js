@@ -1,4 +1,4 @@
-// endpoint: /register
+// endpoint: /login
 require("dotenv").config();
 const express = require("express");
 const jwt = require("jsonwebtoken");
@@ -8,7 +8,7 @@ const { validateEmployeeBody } = require('../util/validateReqBody')
 
 const loginService = require("../service/LoginService");
 
-// reading
+// Creating
 router.post("/", validateEmployeeBody, async (req, res) => {
   const data = await loginService.login(req.body);
   if (data) {
