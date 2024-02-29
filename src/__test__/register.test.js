@@ -1,6 +1,5 @@
 const { postEmployee } = require("../service/RegisterService");
 const uuid = require("uuid");
-//const { postEmployee } = require('../')
 
 describe("Register Tests", () => {
   // successful register of a user
@@ -30,5 +29,4 @@ describe("Register Tests", () => {
     // Assert
     expect(result).toBe(expected);
   });
-
 });

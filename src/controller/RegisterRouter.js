@@ -6,7 +6,7 @@ const { logger } = require("../util/logger");
 const registerService = require("../service/RegisterService");
 const { validateEmployeeBody } = require("../util/validateReqBody");
 
-// reading
+// Create
 router.post("/", validateEmployeeBody, async (req, res) => {
   const data = await registerService.postEmployee(req.body);
   if (data) {

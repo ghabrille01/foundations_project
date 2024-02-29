@@ -8,7 +8,7 @@ const { validateEmployeeBody } = require('../util/validateReqBody')
 
 const loginService = require("../service/LoginService");
 
-// Creating
+// Read
 router.post("/", validateEmployeeBody, async (req, res) => {
   const data = await loginService.login(req.body);
   if (data) {
@@ -20,7 +20,7 @@ router.post("/", validateEmployeeBody, async (req, res) => {
       },
       process.env.JWT_KEY,
       {
-        expiresIn: "15m", // token expiration time (adjustable)
+        expiresIn: "15m",
       }
     );
 
