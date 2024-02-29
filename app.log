@@ -653,3 +653,98 @@
 2024-02-29T20:16:56.687Z [error]: ExpressionAttributeValues must not be empty
 2024-02-29T20:21:23.086Z [error]: ExpressionAttributeValues must not be empty
 2024-02-29T20:21:38.098Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T20:30:52.129Z [info]: Incoming POST : /register
+2024-02-29T20:30:52.133Z [error]: Invalid request body. [object Object]
+2024-02-29T20:30:59.547Z [info]: Incoming POST : /register
+2024-02-29T20:30:59.547Z [error]: Invalid request body. [object Object]
+2024-02-29T20:31:07.764Z [info]: Incoming POST : /register
+2024-02-29T20:31:14.979Z [info]: Incoming POST : /register
+2024-02-29T20:31:15.161Z [info]: Created Employee: postmanUser24
+2024-02-29T20:31:18.711Z [info]: Incoming POST : /register
+2024-02-29T20:48:09.341Z [info]: Incoming POST : /register
+2024-02-29T20:48:09.343Z [error]: Invalid request body. [object Object]
+2024-02-29T20:48:15.277Z [info]: Incoming POST : /register
+2024-02-29T20:48:15.278Z [error]: Invalid request body. [object Object]
+2024-02-29T20:48:30.568Z [info]: Incoming POST : /register
+2024-02-29T20:48:30.987Z [info]: Created Employee: postmanUser204
+2024-02-29T20:48:51.579Z [info]: Incoming POST : /register
+2024-02-29T20:49:03.957Z [info]: Incoming POST : /login/
+2024-02-29T20:49:03.958Z [error]: Invalid request body. [object Object]
+2024-02-29T20:49:11.310Z [info]: Incoming POST : /login/
+2024-02-29T20:49:11.310Z [error]: Invalid request body. [object Object]
+2024-02-29T20:49:24.325Z [info]: Incoming POST : /login/
+2024-02-29T20:49:35.315Z [info]: Incoming POST : /login/
+2024-02-29T20:49:46.847Z [info]: Incoming POST : /login/
+2024-02-29T20:49:46.997Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTIzOTc4NiwiZXhwIjoxNzA5MjQwNjg2fQ.k7DAgNW4k_p43YrAfZQpfkl0NP6Fx0Dq_JYao45lSg4
+2024-02-29T20:53:07.968Z [info]: Incoming POST : /ticket
+2024-02-29T20:54:17.149Z [info]: Incoming POST : /register
+2024-02-29T22:03:46.797Z [info]: Incoming PUT : /ticket/manger/ticket_id/approved
+2024-02-29T22:09:04.239Z [info]: Incoming POST : /register
+2024-02-29T22:09:04.240Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:08.884Z [info]: Incoming POST : /register
+2024-02-29T22:09:13.021Z [info]: Incoming POST : /register
+2024-02-29T22:09:13.022Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:19.130Z [info]: Incoming POST : /register
+2024-02-29T22:09:19.131Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:29.891Z [info]: Incoming POST : /register
+2024-02-29T22:09:30.226Z [info]: Created Employee: postmanUser205
+2024-02-29T22:09:42.473Z [info]: Incoming POST : /register
+2024-02-29T22:10:07.645Z [info]: Incoming POST : /login/
+2024-02-29T22:10:07.645Z [error]: Invalid request body. [object Object]
+2024-02-29T22:10:14.868Z [info]: Incoming POST : /login/
+2024-02-29T22:10:14.869Z [error]: Invalid request body. [object Object]
+2024-02-29T22:10:34.519Z [info]: Incoming POST : /login/
+2024-02-29T22:10:34.856Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTI0NDYzNCwiZXhwIjoxNzA5MjQ1NTM0fQ.XtD-m64e6xx51uA9gg36yKlFT_6qVsbciDOvk5kCz8Y
+2024-02-29T22:10:51.039Z [info]: Incoming POST : /login/
+2024-02-29T22:10:51.173Z [info]: employee Login: postmanUser205 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6IjlhOTNiN2E2LWM1NjgtNDI5YS1hMjAxLTUxZGQ5ZmU1YzBiZSIsInVzZXJuYW1lIjoicG9zdG1hblVzZXIyMDUiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MDkyNDQ2NTEsImV4cCI6MTcwOTI0NTU1MX0.ioobecDgE2jYG0mVg0PAda8O9t2fDRsXwjwvYeuEEWc
+2024-02-29T22:11:04.158Z [info]: Incoming POST : /login/
+2024-02-29T22:11:10.481Z [info]: Incoming POST : /login/
+2024-02-29T22:11:15.983Z [info]: Incoming POST : /login/
+2024-02-29T22:11:16.262Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTI0NDY3NiwiZXhwIjoxNzA5MjQ1NTc2fQ.05VOXMwZPihdjVjUReaqY2UJvgaIkdBEjjoQRjjMSMQ
+2024-02-29T22:11:50.135Z [info]: Incoming POST : /ticket
+2024-02-29T22:13:19.946Z [info]: Incoming POST : /ticket
+2024-02-29T22:13:20.647Z [info]: Created Ticket ID : [object Object]
+2024-02-29T22:14:48.392Z [info]: Incoming GET : /ticket/manager
+2024-02-29T22:14:48.394Z [error]: User failed manager authorization.
+2024-02-29T22:16:37.108Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T22:16:37.295Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:17:06.103Z [info]: Incoming GET : /ticket/manager/approved
+2024-02-29T22:17:06.152Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:17:12.550Z [info]: Incoming GET : /ticket/manager/denied
+2024-02-29T22:17:12.600Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:17:28.352Z [info]: Incoming GET : /ticket/manager/
+2024-02-29T22:17:28.411Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:17:34.860Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T22:17:34.862Z [error]: jwt expired
+2024-02-29T22:17:38.111Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T22:17:38.163Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:18:02.199Z [info]: Incoming PUT : /ticket/manger/fd894589-0038-42a9-aeaa-c0e9baffbace/approved
+2024-02-29T22:19:21.555Z [info]: Incoming PUT : /ticket/manger/fd894589-0038-42a9-aeaa-c0e9baffbace/approved
+2024-02-29T22:20:04.047Z [info]: Incoming PUT : /ticket/manger/ticket_id/denied
+2024-02-29T22:20:23.544Z [info]: Incoming PUT : /ticket/manager/fd894589-0038-42a9-aeaa-c0e9baffbace/approved
+2024-02-29T22:20:23.550Z [error]: jwt expired
+2024-02-29T22:20:28.153Z [info]: Incoming POST : /login/
+2024-02-29T22:20:28.494Z [info]: manager Login: UserWithDigest Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBsb3llZV9pZCI6ImI1NGMxNmEzLWNkY2UtNDI3Yi1iMTA5LWRjMzFkMGI3ODFhZiIsInVzZXJuYW1lIjoiVXNlcldpdGhEaWdlc3QiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTcwOTI0NTIyOCwiZXhwIjoxNzA5MjQ2MTI4fQ._RaBpaZqUGhUmi-9ZIX1NbJ7ehSaPxmY14toHsZI-to
+2024-02-29T22:20:37.238Z [info]: Incoming PUT : /ticket/manager/fd894589-0038-42a9-aeaa-c0e9baffbace/approved
+2024-02-29T22:20:37.398Z [info]: UserWithDigest changed ticket fd894589-0038-42a9-aeaa-c0e9baffbace to approved
+2024-02-29T22:20:52.165Z [info]: Incoming GET : /ticket/manager/pending
+2024-02-29T22:20:52.218Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:20:57.179Z [info]: Incoming GET : /ticket/manager/approved
+2024-02-29T22:20:57.227Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:21:23.309Z [info]: Incoming PUT : /ticket/manager/fd894589-0038-42a9-aeaa-c0e9baffbace/denied
+2024-02-29T22:21:23.356Z [info]: UserWithDigest changed ticket fd894589-0038-42a9-aeaa-c0e9baffbace to denied
+2024-02-29T22:21:33.882Z [info]: Incoming GET : /ticket/manager/approved
+2024-02-29T22:21:33.928Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:21:40.506Z [info]: Incoming GET : /ticket/manager/denied
+2024-02-29T22:21:40.554Z [info]: UserWithDigest has accessed pending tickets.
+2024-02-29T22:22:11.880Z [info]: Incoming GET : /ticket/
+2024-02-29T22:22:11.882Z [error]: jwt expired
+2024-02-29T22:22:28.547Z [info]: Incoming GET : /ticket/
+2024-02-29T22:22:28.599Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T22:23:11.841Z [info]: Incoming GET : /ticket/pending
+2024-02-29T22:23:11.891Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T22:23:20.793Z [info]: Incoming GET : /ticket/approved
+2024-02-29T22:23:20.843Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T22:23:30.267Z [info]: Incoming GET : /ticket/denied
+2024-02-29T22:23:30.316Z [info]: UserWithDigest has accessed their previous tickets.
+2024-02-29T22:23:43.396Z [error]: ExpressionAttributeValues must not be empty

@@ -5,9 +5,10 @@ const { logger } = require("../util/logger");
 
 const registerService = require("../service/RegisterService");
 const { validateEmployeeBody } = require("../util/validateReqBody");
+const { authenticateNoToken } = require("../util/authenticateToken");
 
 // Create
-router.post("/", validateEmployeeBody, async (req, res) => {
+router.post("/", authenticateNoToken, validateEmployeeBody, async (req, res) => {
   const data = await registerService.postEmployee(req.body);
   if (data) {
     logger.info(`Created Employee: ${data.username}`);

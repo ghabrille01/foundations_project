@@ -2,7 +2,7 @@
 const express = require("express");
 const router = express.Router();
 const { logger } = require("../util/logger");
-const authenticateToken = require("../util/authenticateToken");
+const { authenticateToken } = require("../util/authenticateToken");
 const {
   validateIsEmployee,
   validateIsManager,
@@ -103,7 +103,7 @@ router.get(
 
 // Update
 router.put(
-  "/:ticket_id/:ticket_status",
+  "/manager/:ticket_id/:ticket_status",
   authenticateToken,
   validateIsManager,
   async (req, res) => {

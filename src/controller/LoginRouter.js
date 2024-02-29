@@ -4,12 +4,13 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
 const { logger } = require("../util/logger");
-const { validateEmployeeBody } = require('../util/validateReqBody')
+const { validateEmployeeBody } = require("../util/validateReqBody");
+const { authenticateNoToken } = require("../util/authenticateToken");
 
 const loginService = require("../service/LoginService");
 
 // Read
-router.post("/", validateEmployeeBody, async (req, res) => {
+router.post("/", authenticateNoToken, validateEmployeeBody, async (req, res) => {
   const data = await loginService.login(req.body);
   if (data) {
     const token = jwt.sign(

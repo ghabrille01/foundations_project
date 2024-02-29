@@ -20,4 +20,15 @@ const authenticateToken = (req, res, next) => {
   });
 };
 
-module.exports = authenticateToken;
+const authenticateNoToken = (req, res, next) => {
+  const authHeader = req.headers["authorization"];
+  const token = authHeader && authHeader.split(" ")[1];
+
+  if (token) {
+    return res.status(401).json({ message: "Unauthorized Access" });
+  }
+
+  next();
+};
+
+module.exports = { authenticateToken, authenticateNoToken };

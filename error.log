@@ -203,3 +203,19 @@
 2024-02-29T20:16:56.687Z [error]: ExpressionAttributeValues must not be empty
 2024-02-29T20:21:23.086Z [error]: ExpressionAttributeValues must not be empty
 2024-02-29T20:21:38.098Z [error]: ExpressionAttributeValues must not be empty
+2024-02-29T20:30:52.133Z [error]: Invalid request body. [object Object]
+2024-02-29T20:30:59.547Z [error]: Invalid request body. [object Object]
+2024-02-29T20:48:09.343Z [error]: Invalid request body. [object Object]
+2024-02-29T20:48:15.278Z [error]: Invalid request body. [object Object]
+2024-02-29T20:49:03.958Z [error]: Invalid request body. [object Object]
+2024-02-29T20:49:11.310Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:04.240Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:13.022Z [error]: Invalid request body. [object Object]
+2024-02-29T22:09:19.131Z [error]: Invalid request body. [object Object]
+2024-02-29T22:10:07.645Z [error]: Invalid request body. [object Object]
+2024-02-29T22:10:14.869Z [error]: Invalid request body. [object Object]
+2024-02-29T22:14:48.394Z [error]: User failed manager authorization.
+2024-02-29T22:17:34.862Z [error]: jwt expired
+2024-02-29T22:20:23.550Z [error]: jwt expired
+2024-02-29T22:22:11.882Z [error]: jwt expired
+2024-02-29T22:23:43.396Z [error]: ExpressionAttributeValues must not be empty
